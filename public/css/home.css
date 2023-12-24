@@ -1,0 +1,92 @@
+@import url("body.css");
+
+.container{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.text{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+img{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+span{
+    color: var(--red);
+}
+
+.name{
+    font-size: 3.5em;
+}
+
+.btn{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    height: 10%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.download{
+    width: 50%;
+    height: 100%;
+    margin-top: 20px;
+    margin: 30px 10px;
+    border-radius: 5px;
+    color: black;
+    border: 3px solid var(--red);
+    transition: 0.3s;
+    text-decoration: none;
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--red);
+
+}
+
+.download:hover{
+    background-color: transparent;
+    color: var(--textColor);
+}
+
+@media screen and (max-width: 768px) {
+    .container img{
+        display: none;
+    }
+
+    .container{
+        width: 100%;
+        height: auto;
+    }
+
+    .container .text{
+        width: 85%;
+        height: auto;
+    }
+
+    .btn{
+        width: 100%;
+    }
+
+    .download{
+        font-size: 1.1em;
+    }
+}
