@@ -125,7 +125,7 @@ i{
     content: 'linkedin';
 }
 
-.container .right a, .left #a1{
+.container .right button, .left #a1{
     text-decoration: none;
     font-size: 1.5em;
     background-color: var(--red);
@@ -137,9 +137,10 @@ i{
     text-align: center;
 }
 
-.container .right a:hover, .left #a1:hover{
+.container .right button:hover, .left #a1:hover{
     background-color: transparent;
     border: 3px solid var(--red);
+    cursor: pointer;
     /* color: var(--textColor); */
 }
 
