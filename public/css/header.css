@@ -39,7 +39,7 @@ header nav ul li:hover {
 header nav ul li a{
     text-decoration: none;
     color: inherit;
-    font-size: 1.3em;
+    font-size: 1.1em;
     font-style: inherit;
     width: 100%;
     height: 100%;
@@ -53,26 +53,15 @@ header nav ul li a::after {
     height: 5%;
 }
 
-header h2{
-    margin: 0 2%;
-    display: flex;
-    flex-direction: column;
-    width: 10%;
-    height: 80%;
-}
-
-header h2::after {
-    content: '';
-    width: 65%;
-    height: 8%;
-    background-color: var(--red);
-    align-items: center;
-    justify-content: center;
-    border-radius: 5px;
-}
-
 header button {
     display: none;
+}
+
+header img {
+    width: 10%;
+    height: auto;
+    margin-left: 2%;
+    border-bottom: 3px solid var(--red);
 }
 
 
