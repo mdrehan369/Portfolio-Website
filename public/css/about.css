@@ -34,7 +34,7 @@ h1::after{
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1025px) {
     .container{
         height: auto;
         width: 100%;

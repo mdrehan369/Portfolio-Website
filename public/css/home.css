@@ -36,7 +36,7 @@ span{
 .btn{
     display: flex;
     flex-direction: row;
-    width: 80%;
+    width: 100%;
     height: 10%;
     justify-content: center;
     align-items: center;
@@ -67,8 +67,8 @@ span{
     color: var(--textColor);
 }
 
-@media screen and (max-width: 768px) {
-    .container img{
+@media screen and (max-width: 1025px) {
+    #frontImage{
         display: none;
     }
 
@@ -84,9 +84,16 @@ span{
 
     .btn{
         width: 100%;
+
     }
 
     .download{
-        font-size: 1.1em;
+        font-size: 1.0em;
+        padding: 10px 0px;
+        margin-top: 10px;
+    }
+
+    .name {
+        font-size: 3.0em;
     }
 }

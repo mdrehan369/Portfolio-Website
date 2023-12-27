@@ -65,7 +65,7 @@ header img {
 }
 
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1025px){
 
     header{
         height: 10%;
@@ -78,11 +78,11 @@ header img {
         transition: height 0.3s;
     }
 
-    header h2{
+    header img{
         height: fit-content;
         align-self: flex-start;
         margin: 0 2%;
-        width: auto;
+        width: 30%;
     }
 
     header nav {
