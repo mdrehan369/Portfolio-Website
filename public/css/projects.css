@@ -72,4 +72,11 @@
         overflow-x: hidden;
     }
     
+    .cards img{
+        width: 300px;
+    }
+
+    .cards .text{
+        width: 300px;
+    }
 }
